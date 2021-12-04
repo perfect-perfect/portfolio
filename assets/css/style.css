@@ -1,0 +1,87 @@
+:root {
+    --primary-color: #5d37d8;
+    --secondary-color:#B4E11E;
+    --tertiary-color: #f5f3f3; 
+    --quaternary-color: #020202;
+}
+
+body {
+    color: var(--quaternary-color);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* begin header */
+header {
+    padding: 20px 35px;
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+header h1 {
+    font-weight: bold;
+    font-size: 26px;
+    color: var(--tertiary-color);
+    margin: 0;
+    text-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+
+header a {
+    text-decoration: none;
+    color: var(--tertiary-color);
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    list-style: none;
+}
+
+header nav ul li a {
+    padding: 10px 60px;
+    font-weight: lighter;
+    font-size: 1.8vw;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    text-decoration: underline;
+}
+/* end header */
+
+/* start hero */
+.hero {
+    background-color: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero img {
+    border-radius: 50%;
+    margin-bottom: 40px;
+    width: 400px;
+    height: 400px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
+}
+/* end hero */
+
+/* start about me */
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin: 0 150px;
+}
+
+/* start work */
+.large-work-image img {
+    display: block;
+    margin: auto;
+}
+
+h3 {
+    text-align:center;
+}
